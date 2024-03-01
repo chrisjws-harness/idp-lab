@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nicacton-service
+  description: |
+    My first service
+  links:
+    - title: Website
+      url: http://harness.io
+  annotations:
+    github.com/project-slug: chrisjws-harness/idp-lab
+    backstage.io/techdocs-ref: dir:../../
+    lighthouse.com/website-url: https://harness.io
+#  labels:
+#    key1: value1
+  tags:
+    - nicacton
+spec:
+  type: service
+  owner: techxd
+  lifecycle: experimental
+  system: Demo
+#  dependsOn:
+#    - component:default/fill-in-your-name-service
+#  consumesApis:
+#    - user-api
+#  providesApis:
+#    - example-api
